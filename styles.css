@@ -1,29 +1,27 @@
 /* Your CSS Code here. */
 #a{
-    width: 10vw;
-    height: 10vh;
+    width: 100px;
+    height: 100px;
     background-color: green;
-    border: 2px solid black;
 	font-size: 30px;
 }
 #b{
-    width: 10vw;
-    height: 10vh;
+    width: 100px;
+    height: 100px;
     background-color: red;
-    border: 2px solid black;
 	font-size: 30px;
 }
 #c{
-    width: 10vw;
-    height: 10vh;
+    width: 100px;
+    height: 100px;
     background-color: blue;
-    border: 2px solid black;
 	font-size: 30px;
 }
 
 .holder{
     display: flex;
-    flex-direction: row;
+    position: flex-wrap;
+	
     justify-content: space-between  ;
     margin-top: 10px;
 }
